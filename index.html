@@ -10,61 +10,34 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link type="image/ico" rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" class="img-resposive logo" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Our solution<img src="images/chevron-down.svg" /> </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Customers</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Link
-                </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
 
+    <header class="header">
+        <a href="" class="logo"><img src="./images/logo.png" alt="logo" /></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#Our solution">Our solution <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+            <li><a href="#Custumers">Customers</a></li>
+            <li><a href="#About us">About us <img src="icons/chevron-down.svg"></a></li>
+            <li><a href="#Search">Documentation <img src="icons/chevron-down.svg"></a></li>
+            <li><a href="#Documentation"><i class="mdi fonts-icons mdi-magnify"></i></a></li>
+            <li><a href="#Contact us">Contact us</a></li>
+            <li><a href="#Log in">Log in</a></li>
+            <li><a href="#Create an account">Create an account</a></li>
+        </ul>
+    </header>
     </header>
     <main>
-        <div class="jumbotrom">
-            <div class="container">
-                <h1 class="display-4">Get in the driver’s seat and get paid</h1>
-                <p class="lead">Drive on the platform with the largest network of active riders.</p>
-                <hr class="my-4" />
-            </div>
 
     </main>
+    <script src="https://kit.fontawesome.com/f219becbba.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
