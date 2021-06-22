@@ -426,6 +426,21 @@ img.partners_image {
     align-self: center;
 }
 
+.dark-footer {
+    padding-top: 30px;
+    background-color: #031033;
+    width: 100%;
+}
+
+.footer-white {
+    color: #fff;
+    text-align: left;
+}
+
+.col {
+    text-align: left;
+}
+
 
 /* 48em = 768px */
 
@@ -446,11 +461,12 @@ img.partners_image {
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .container {
         -webkit-columns: 1 90%;
         -moz-columns: 1 90%;
         columns: 1 90%;
+        flex-direction: column;
     }
     .item1,
     .item2 {
