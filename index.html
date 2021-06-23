@@ -18,19 +18,21 @@
 <body>
 
     <header class="header">
-        <a href="Adyen" class="logo"><img src="Images/adyen-header-logo-green.svg" width="100px" alt="logo" /></a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-            <li><a class="a-nav" href="#Our solution">Our solution <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-            <li><a class="a-nav" href="#Custumers">Customers</a></li>
-            <li><a class="a-nav" href="#About us">About us <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-            <li><a class="a-nav" href="#Search">Documentation <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-            <li><a class="a-nav" href="#Documentation"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-            <li><a class="a-nav" href="#Contact us">Contact us</a></li>
-            <li><a class="a-nav" href="#Log in">Log in</a></li>
-            <li><a class="button" href="#Create an account">Create an account</span></a></li>
-        </ul>
+
+        <div class="topnav" id="myTopnav">
+            <a id="logo" href="#news"><img src="Images/adyen-header-logo-green.svg" width="100px" alt="logo" /></a>
+            <a class="nav-p" href="#news">Our solution <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+            <a class="nav-p" href="#contact">Customers</a>
+            <a class="nav-p" href="#about">About us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <a class="nav-p" href="#contact">Documentation <a href="#contact"></a>
+            <a class="nav-p" href="#contact"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="nav-p" href="#contact">Contact us</a>
+            <a class="nav-p" href="#contact">Log in</a>
+            <a id="green-button" href="#contact">Create an account</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </header>
 
     <main>
@@ -229,7 +231,7 @@
 
         <div class="container">
             <div class="item2">
-                <video width="472" autoplay loop>
+                <video width="600" autoplay loop>
                 <source
                   src="video/homepage-square-video-Lush.mp4" type="video/mp4">
               </video>
@@ -357,10 +359,10 @@
                             <a href="#!" class="footer-white">Infrastructure</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer-white">Cerftifications</a>
+                            <a href="#!" class="footer-white">Certifications</a>
                         </li>
                         <li>
-                            <a href="#!" class="footer-white">Licences</a>
+                            <a href="#!" class="footer-white">Licenses</a>
                         </li>
                         <li>
                             <a href="#!" class="footer-white">Term & Conditions</a>
@@ -391,7 +393,7 @@
                 </div>
 
 
-                <hr class="my-4" />
+                <hr />
 
                 <div class="left p-3 white-text">
 
@@ -413,7 +415,16 @@
         </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/f219becbba.js " crossorigin="anonymous "></script>
+    <script src="https://kit.fontawesome.com/f219becbba.js " crossorigin="anonymous ">
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 
 
 </body>
