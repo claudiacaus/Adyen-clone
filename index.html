@@ -36,39 +36,42 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="item1 whites">
+        <div class="flex-container">
+            <div class="item1" id="whites">
                 <h1>Accept payments everywhere</h1>
                 <p>Meet the payments platform built for any business and every costumer journey.</p>
-                <p class="button">Start your journey with us</p>
+                <p class="no-wrap" id="green-button">Start your journey with us</p>
             </div>
-            <div class="item2">
+            <div class="item2" id="top1">
                 <video width="472" autoplay loop>
           <source
-            src="video/video.mp4" type="video/mp4">
+            src="Video/video.mp4" type="video/mp4">
         </video>
             </div>
         </div>
 
         <div class="row logo_area">
-            <div class="inner_container">
-                <ul class="inner_container-logo">
-                    <li><img class="partners_image" src="Images/uber-logobar-svg.svg" alt="partner logo"></li>
-                    <li><img id="mango" src="Images/mango-logo.png" alt="partner logo"></li>
-                    <li><img class="partners_image" src="Images/booking-com-logobar-svg.svg" alt="partner logo"></li>
-                    <li><img class="partners_image" src="Images/ebay-logobar.svg" alt="partner logo"></li>
-                    <li><img class="partners_image" src="Images/happy-socks-logobar-svg.svg" alt="partner logo"></li>
-                    <li><img class="partners_image" src="Images/spotify-logobar-svg.svg" alt="partner logo"></li>
-                </ul>
-            </div>
+
+            <ul class="inner_container-logo">
+                <li><img class="partners_image" src="Images/uber-logobar-svg.svg" alt="partner logo"></li>
+                <li><img id="mango" src="Images/mango-logo.png" alt="partner logo"></li>
+                <li><img class="partners_image" src="Images/booking-com-logobar-svg.svg" alt="partner logo"></li>
+                <li><img class="partners_image" src="Images/ebay-logobar.svg" alt="partner logo"></li>
+                <li><img class="partners_image" src="Images/happy-socks-logobar-svg.svg" alt="partner logo"></li>
+                <li><img class="partners_image" src="Images/spotify-logobar-svg.svg" alt="partner logo"></li>
+            </ul>
+
         </div>
+
+
+
         <div class="full">
             <div class="container grey">
                 <div class="box-grey">
-                    <ul>
+                    <ul id="ul-grey">
                         <li><img class="green-icon" src="Images/icon_world_green.svg" alt="green logo"> </li>
                         <li>
-                            <h2><strong>Growth</strong></h2>
+                            <h3><strong>Growth</strong></h3>
                         </li>
                         <li>
                             <p>Expand into new markets with local acquiring and payment methods.</p>
@@ -82,10 +85,10 @@
                     </ul>
                 </div>
                 <div class="box-grey">
-                    <ul>
+                    <ul id="ul-grey">
                         <li><img class="green-icon" src="Images/revenue-protect-icon-green-svg.svg" alt="green logo"> </li>
                         <li>
-                            <h2><strong>Revenue</strong></h2>
+                            <h3><strong>Revenue</strong></h3>
                         </li>
                         <li>
                             <p>Optimize each transaction, increase conversions, and drive revenue.</p>
@@ -98,10 +101,10 @@
                     </ul>
                 </div>
                 <div class="box-grey">
-                    <ul>
+                    <ul id="ul-grey">
                         <li><img class="green-icon" src="Images/issuing-icon-svg-green.svg" alt="green logo"> </li>
                         <li>
-                            <h2><strong>Real partnership</strong></h2>
+                            <h3><strong>Real partnership</strong></h3>
                         </li>
                         <li>
                             <p>Access expert advice and support from a dedicated team of payments specialists.</p>
@@ -115,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="container white">
+        <div class="container-white">
             <ul>
                 <li>
                     <h2><strong>Accept payments across all sales channels</strong</h2>
@@ -129,18 +132,17 @@
             </ul>
         </div>
 
-        <div class="container">
-          <div class='row'>
-            <div class='column'>
-              <div class='blue-column'>
-                <img class="payment" src="Images/homepage-payment-methods-EN.gif" alt="payment method">
+      
+          <div class='flex-container'>
+            <div class='item1 in-app'>
+             <img id="payment" src="Images/homepage-payment-methods-EN.gif" alt="payment method">
                 <h4>Online and in-app payments</h4>
                 <p>Accept cards, mobile wallets and more on any digital channel or device. Every checkout is fully optimized and geared for more conversions.</p>
                 <a href="#" class="green-link">More about online payments ></a>
               </div>
-            </div>
-            <div class='column'>
-              <div class='yellow-column'>
+            
+           
+              <div class='item2'>
                 <img class="payment" src="Images/yellowcard.jpg" alt="payment method">
                 <h4>Payment terminals and in-store POS setups</h4>
                 <p>Enhance in-person payment experiences with a terminal for any need. It’s easy to set-up and comes packed with features. 
@@ -148,126 +150,146 @@
                 <a href="#" class="green-link">More about POS payments ></a>
               </div>
             </div>
-          </div>
-        </div>
+        
 
         <div class="dark-blue">
           <div class="container">
           <div class="item2">
-            <video autoplay loop>
+            <video id="video-blue" autoplay loop>
               <source
-                src="video/adyenvideo2.mp4" type="video/mp4">
+                src="Video/adyenvideo2.mp4" width="472" type="video/mp4">
             </video>
           </div>
           <div class="item1 blue">
-            
-            <ul class="white-side">
-            <li><h4 class="f-white">Approve more transactions</h4></li>
-          <li><p class="f-white">Experience more approvals on every single payment with local and global payment processing, data-driven optimizations, and powerful risk management. All within a fully connected single payments system.</p>
-          </li></ul></div>
-          </div>
-          <div class="container">
-            <div class="textwhite">
-              <img src="Images/payment-methods-icon-20-white.svg" alt="white icon">
-              <h5>Payment methods</h5>
-              <p>Offer the payment methods your customers know and trust.</p>
-              <a href="#" class="green-link">Learn more ></a>
-            </div>
-            <div class="textwhite">
-              <img src="Images/global-acquiring-icon-20-white.svg" alt="white icon">
-              <h5>Local connections</h5>
-              <p>Global payment processing tailored to your business for lower fees.</p>
-              <a href="#" class="green-link">Learn more ></a>
-            </div>
-            <div class="textwhite">
-              <img src="Images/revenue-optimization-icon-20-white.svg" alt="white icon">
-              <h5>Transaction optimizations</h5>
-              <p>Unlock more revenue using data and machine learning for every payment.</p>
-              <a href="#" class="green-link">Learn more ></a>
-            </div>
-            <div class="textwhite">
-              <img src="Images/revenue-protect-icon-20-white.svg" alt="white icon">
-              <h5>Safety and security</h5>
-              <p>Use a data-driven approach to block fraudsters and manage risk.</p>
-              <a href="#" class="green-link">Learn more ></a>
-            </div>
-
-          </div>
-        </div>
-
-
-          </div>
-        </div>
-        <section id="services" class="container-fluid blue-grey lighten-5" >
-          <div class="row">
-        
-                        <div class="col-lg-6 col-12 col-md-6">
-                          <h1>Understand what your customers really want</h1>
-                          <p>
-                            Get a better understanding of your entire business with in-depth insights and reporting all in one place. 
-                          </p>
-                          <a href="#" class="green-link">Learn More ></a>
-
-                                       
-                        </div>
-        
-                        <div class="col-lg-6 col-12 col-md-6">
-                          <img src="Images/Browser.png" class="img-fluid"/>
-                        </div>
-                
-          </div>
-          <section id="ideas">
-          <div class="container">
-            <div class="works">
-              <ul>
-            <li><h2><strong>We work with companies with big ideas</strong></h2>
+          <div id="white-side">
+          <h2 class="f-white"><strong>Approve more transactions</strong></h2>
                 </li>
-                <li> <a href="#" class="green-link">See who we're working with ></a></li>
-            </ul>
+                <p class="f-white">Experience more approvals on every single payment with local and global payment processing, data-driven optimizations, and powerful risk management. All within a fully connected single payments system.</p>
         </div>
-
         </div>
-
-
+        </div>
         <div class="container">
-            <div class="item2">
-                <video width="600" autoplay loop>
+            <div id="textwhite">
+                <img src="Images/payment-methods-icon-20-white.svg" alt="white icon">
+                <h5>Payment methods</h5>
+                <p>Offer the payment methods your customers know and trust.</p>
+                <a href="#" class="green-link">Learn more ></a>
+            </div>
+            <div id="textwhite">
+                <img src="Images/global-acquiring-icon-20-white.svg" alt="white icon">
+                <h5>Local connections</h5>
+                <p>Global payment processing tailored to your business for lower fees.</p>
+                <a href="#" class="green-link">Learn more ></a>
+            </div>
+            <div id="textwhite">
+                <img src="Images/revenue-optimization-icon-20-white.svg" alt="white icon">
+                <h5>Transaction optimizations</h5>
+                <p>Unlock more revenue using data and machine learning for every payment.</p>
+                <a href="#" class="green-link">Learn more ></a>
+            </div>
+            <div id="textwhite">
+                <img src="Images/revenue-protect-icon-20-white.svg" alt="white icon">
+                <h5>Safety and security</h5>
+                <p>Use a data-driven approach to block fraudsters and manage risk.</p>
+                <a href="#" class="green-link">Learn more ></a>
+            </div>
+
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="full-grey">
+            <div class="top">
+                <img src="Images/Browser.png" class="img-fluid" />
+            </div>
+
+            <div id="bottom wrap">
+                <div class="cards3">
+                    <div class="top-large">
+                        <h2>Understand what your customers really want</h2>
+                        <p>Get a better understanding of your entire business with in-depth insights and reporting all in one place.</p>
+                        <a href="#" class="green-link">Learn More ></a>
+                    </div>
+                    <div class="small-cards">
+                        <div class="small-card1">
+                            <ul>
+                                <li><img id="rules" src="Images/rules-icon-20.svg" height="25px;"></li>
+                                <li>
+                                    <h6>Daily tasks</h6>
+                                </li>
+                                <li>
+                                    <p>Easily complete tasks like refunds.</p>
+                                </li>
+                                <li><a class="green-link">Learn more ></a></li>
+                            </ul>
+                        </div>
+                        <div class="small-card2">
+                            <ul>
+                                <li><img id="rules" src="Images/customer-insights-icon-20.svg" height="25px;"></li>
+                                <li>
+                                    <h6>In-depth reports</h6>
+                                </li>
+                                <li>
+                                    <p>Translate data into detailed reports.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <section id="ideas">
+            <div class="works">
+                <ul>
+                    <li>
+                        <h2><strong>We work with companies with big ideas</strong></h2>
+                    </li>
+                    <li> <a href="#" class="green-link">See who we're working with ></a></li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <div class="item2" id="side-lush">
+                    <video width="600" autoplay loop>
                 <source
-                  src="video/homepage-square-video-Lush.mp4" type="video/mp4">
+                  src="Video/homepage-square-video-Lush.mp4" type="video/mp4">
               </video>
 
-            </div>
-            <div class="item1">
-                <img class="lush-logo" src="Images/lush-logo-horizontal-svg.svg" alt="lush logo" height="36px;">
-                <p class="lush-info">"Working with the sales teams and account managers has been great. They've helped us get to market with our LUSH Pay solution much quicker than if we had tried to do it ourselves."</p>
+                </div>
+                <div id="lush" class="item1">
+                    <img class="lush-logo" src="Images/lush-logo-horizontal-svg.svg" alt="lush logo" height="36px;">
+                    <p class="lush-info">"Working with the sales teams and account managers has been great. They've helped us get to market with our LUSH Pay solution much quicker than if we had tried to do it ourselves."</p>
 
-            </div>
-        </div>
-        <div class="container">
-            <div class="flex-row-container">
-                <div class="flex-row-item">
-                    <img src="Images/brompton.jpg" width="90%">
-                    <p>BROMPTON</p>
-                    <h5>Making tracks with global payments</h5>
-                    <a href="#" class="green-link">Read customer story ></a>
-                </div>
-                <div class="flex-row-item ">
-                    <img src="Images/flixbus.jpg" width="90%">
-                    <p>FLIXBUS</p>
-                    <h5>The road to global expansion </h5>
-                    <a href="#" class="green-link">Read customer story ></a>
-                </div>
-                <div class="flex-row-item ">
-                    <img src="Images/transferwise.jpg" width="90%">
-                    <p>TRANSFERWISE</p>
-                    <h5>4 questions with Wade Stokes </h5>
-                    <a href="#" class="green-link">Read customer story ></a>
                 </div>
             </div>
-        </div>
+            <div class="container-pictures">
+                <div class="flex-row-container">
+                    <div class="flex-row-item">
+                        <img src="Images/brompton.jpg" width="90%">
+                        <p>BROMPTON</p>
+                        <h5>Making tracks with global payments</h5>
+                        <a href="#" class="green-link">Read customer story ></a>
+                    </div>
+                    <div class="flex-row-item">
+                        <img src="Images/flixbus.jpg" width="90%">
+                        <p>FLIXBUS</p>
+                        <h5>The road to global expansion </h5>
+                        <a href="#" class="green-link">Read customer story ></a>
+                    </div>
+                    <div class="flex-row-item ">
+                        <img src="Images/transferwise.jpg" width="90%">
+                        <p>TRANSFERWISE</p>
+                        <h5>4 questions with Wade Stokes </h5>
+                        <a href="#" class="green-link">Read customer story ></a>
+                    </div>
+                </div>
+            </div>
         </section>
         <div class="green-row">
-            <div class="container">
+            <div class="container-green">
                 <div class="start">
                     <ul>
                         <li>
@@ -283,9 +305,9 @@
 
     <footer class="dark-footer">
 
-        <div class="container">
+        <div class="container-footer">
 
-            <div class="row ">
+            <div class="row">
 
                 <div class="col">
                     <h5 class="footer-white">Adyen</h5>
